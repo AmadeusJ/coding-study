@@ -6,5 +6,8 @@ public class AClass {
     public AClass() {
         this.socketClient = SocketClient.getInstance();
     }
-    
+
+    public SocketClient getSocketClient() {
+        return this.socketClient;
+    }
 }
